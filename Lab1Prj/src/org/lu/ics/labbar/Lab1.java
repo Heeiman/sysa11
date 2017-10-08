@@ -16,7 +16,7 @@ public class Lab1 {
         System.out.println("Välkommen " + name + " till mjukvaruutveckling. ");
         
         stdIn.close();
-
+       // Testing something
 	}
 
 }
