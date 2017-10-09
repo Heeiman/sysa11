@@ -1,11 +1,11 @@
-package org.lu.ics.labbar;
+ipackage org.lu.ics.labbar;
 
 import java.util.Scanner;
 
 public class Uppgift1a {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
         Scanner input = new Scanner(System.in);
         
         String question1 = "Skriv ett ord: ";
