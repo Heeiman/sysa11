@@ -1,4 +1,4 @@
-ipackage org.lu.ics.labbar;
+package org.lu.ics.labbar;
 
 import java.util.Scanner;
 
