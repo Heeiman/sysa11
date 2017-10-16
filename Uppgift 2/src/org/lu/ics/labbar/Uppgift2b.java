@@ -14,8 +14,10 @@ public class Uppgift2b {
         System.out.println("Skriv in det första talet: ");
         int intOne = input.nextInt();
         if (intOne == 0) {
-        	System.out.println("Tackar.");
-        	break;
+        System.out.println("Tackar.");
+        input.close();
+        break;
+        
         }
         
         System.out.println("Skriv in det andra talet: ");
