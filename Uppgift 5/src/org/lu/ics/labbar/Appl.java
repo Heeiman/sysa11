@@ -50,9 +50,6 @@ public class Appl {
 		System.out.println(register.findPerson("543210").getName());
 				
 		System.out.println(a1.getOwner().getName() + "\n" + a1.getNbr() + "\n" + a1.getBalance());
-		//System.out.println(account2.getOwner().getName() + "\n" + account2.getNbr() + "\n" + account2.getBalance());
-		//System.out.println(account3.getOwner().getName() + "\n" + account3.getNbr() + "\n" + account3.getBalance());
-		//System.out.println(account4.getOwner().getName() + "\n" + account4.getNbr() + "\n" + account4.getBalance(
 
 		
 		

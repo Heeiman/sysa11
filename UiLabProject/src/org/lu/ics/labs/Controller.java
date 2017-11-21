@@ -16,8 +16,8 @@
 	 customers.addCustomer(tmpCustomer);
 	 }
 
-	 public void addCustomer(String nbr, String name, int cardN, String cardT) {
-	 Customer tmpCustomer = new Customer(nbr, name);
+	 public void addCustomer(String cNumber, String name, int cardN, String cardT) {
+	 Customer tmpCustomer = new Customer(cNumber, name);
 	 Creditcard creditCard = new Creditcard(cardN, cardT);
 	 tmpCustomer.setCreditcard(creditCard);
 	 creditCard.setHolder(tmpCustomer);

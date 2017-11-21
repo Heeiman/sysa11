@@ -77,14 +77,14 @@ public class CustomerApplication {
 					try {
 						cardNumber = Integer.parseInt(textField_CardNbr.getText());
 						controller.addCustomer(cNumber, cName, cardNumber, cardType);
-						lblResponse.setText("Response:");
+						lblResponse.setText("Response: Allt sparat");
 					} catch (Exception e1) {
 						
 						lblResponse.setText("Response: Ogiltigt värde, Card Number.");
 					}
 				} else {
 					controller.addCustomer(cNumber, cName);
-					lblResponse.setText("Response:");
+					lblResponse.setText("Response: Sparat");
 				}
 			}
 		});
@@ -98,7 +98,7 @@ public class CustomerApplication {
 				String cNumber = textField_CNbr.getText();
 				String[] tmpCustomer = controller.findCustomer(cNumber);
 				if (tmpCustomer != null) {
-					lblResponse.setText("Response:");
+					lblResponse.setText("Response: Kund finns med kreditkort");
 					if (tmpCustomer.length == 4) {// Have creditcard
 						textField_CNbr.setText(tmpCustomer[0]);
 						textField_Name.setText(tmpCustomer[1]);
