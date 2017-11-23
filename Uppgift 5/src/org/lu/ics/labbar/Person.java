@@ -4,12 +4,12 @@ import java.util.*;
 
 public class Person {
 	
-	private LinkedList<Account> ownAccounts;
+	private ArrayList<Account> accounts;
 	private String pNbr;
 	private String name;
 	
 	public Person () {
-		this.setOwnAccounts (new LinkedList<Account>());
+		this.setAccount(new ArrayList<Account>());
 	}
 	
 	public String getPNbr () {
@@ -28,11 +28,11 @@ public class Person {
 		name =newName;
 	}
 	
-	public LinkedList<Account> getOwnAccounts () {
-		return ownAccounts;
+	public ArrayList<Account> getOwnAccounts () {
+		return accounts;
 	}
-	public void setOwnAccounts(LinkedList<Account> newOwnAccounts) {
-		ownAccounts = newOwnAccounts;
+	public void setAccount(ArrayList<Account> newAccounts) {
+		accounts = newAccounts;
 	}
 
 	public void addAccount (Account anAccount) {

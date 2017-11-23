@@ -4,6 +4,7 @@ public class Customer {
 	private String cNumber;
 	private String cName;
 	private Creditcard creditcard;
+	
 	public String getCNumber() {
 	return this.cNumber;
 	}
