@@ -42,6 +42,9 @@ public class Account {
         this.setNbr(nbr);
         this.balance=0;
     }
+    public Account () {
+    	
+    }
 
     @Override
     public String toString() {

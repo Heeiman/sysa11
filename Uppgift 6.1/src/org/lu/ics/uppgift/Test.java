@@ -53,7 +53,7 @@ public class Test {
 		System.out.println(register.findPerson("1111").getName());
 		System.out.println(register.findPerson("2222").getName());
 				
-		System.out.println(account1.getOwner().getName() + "\n" + account1.getNbr() + "\n" + account1.getBalance());
+		System.out.println(account1.getOwner().getName() + "\n" + account1.getNbr() + "\n" + account1.getBalance() + "\n" + register.findPerson("2222").getName());
 		System.out.println(account2.getOwner().getName() + "\n" + account2.getNbr() + "\n" + account2.getBalance());
 		//System.out.println(account3.getOwner().getName() + "\n" + account3.getNbr() + "\n" + account3.getBalance());
 		//System.out.println(account4.getOwner().getName() + "\n" + account4.getNbr() + "\n" + account4.getBalance());

@@ -41,5 +41,8 @@ public class Person {
         this.setName(name);
         this.setAccount(new LinkedList<Account>());
     }
+    public Person () {
+    	
+    }
 
 }
